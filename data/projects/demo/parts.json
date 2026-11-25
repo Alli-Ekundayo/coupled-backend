@@ -1,0 +1,301 @@
+{
+  "J1": {
+    "mpn": "USBC-4P-DEMO",
+    "lcsc_id": "",
+    "category": "Connector",
+    "package": "USBC-4P",
+    "description": "USB Type-C power-only receptacle VBUS CC1 CC2 GND (simplified demo footprint)",
+    "manufacturer": "",
+    "value": "USB-C power",
+    "price": 0.0,
+    "stock": 999,
+    "voltage_max": 20.0,
+    "footprint_ref": "USBC-4P",
+    "pins": [
+      {
+        "num": "1",
+        "name": "VBUS",
+        "type": "power_out"
+      },
+      {
+        "num": "2",
+        "name": "CC1",
+        "type": "bidir"
+      },
+      {
+        "num": "3",
+        "name": "CC2",
+        "type": "bidir"
+      },
+      {
+        "num": "4",
+        "name": "GND",
+        "type": "ground"
+      }
+    ],
+    "score": null
+  },
+  "U1": {
+    "mpn": "AP2112K-3.3TRG1",
+    "lcsc_id": "C51118",
+    "category": "Power Management",
+    "package": "SOT-23-5",
+    "description": "LDO linear regulator 3.3V 600mA low noise low quiescent current fixed output",
+    "manufacturer": "Diodes Inc",
+    "value": "3.3V",
+    "price": 0.12,
+    "stock": 50000,
+    "voltage_max": 6.0,
+    "footprint_ref": "SOT-23-5",
+    "pins": [
+      {
+        "num": "1",
+        "name": "VIN",
+        "type": "power_in"
+      },
+      {
+        "num": "2",
+        "name": "GND",
+        "type": "ground"
+      },
+      {
+        "num": "3",
+        "name": "EN",
+        "type": "input"
+      },
+      {
+        "num": "4",
+        "name": "NC",
+        "type": "nc"
+      },
+      {
+        "num": "5",
+        "name": "VOUT",
+        "type": "power_out"
+      }
+    ],
+    "score": null
+  },
+  "U2": {
+    "mpn": "BME280",
+    "lcsc_id": "C92489",
+    "category": "Sensors",
+    "package": "LGA-8",
+    "description": "digital humidity pressure temperature environmental sensor I2C SPI 3.3V",
+    "manufacturer": "Bosch",
+    "value": "BME280",
+    "price": 3.1,
+    "stock": 8000,
+    "voltage_max": 3.6,
+    "footprint_ref": "LGA-8",
+    "pins": [
+      {
+        "num": "1",
+        "name": "GND",
+        "type": "ground"
+      },
+      {
+        "num": "2",
+        "name": "CSB",
+        "type": "input"
+      },
+      {
+        "num": "3",
+        "name": "SDI",
+        "type": "bidir"
+      },
+      {
+        "num": "4",
+        "name": "SCK",
+        "type": "input"
+      },
+      {
+        "num": "5",
+        "name": "SDO",
+        "type": "bidir"
+      },
+      {
+        "num": "6",
+        "name": "VDDIO",
+        "type": "power_in"
+      },
+      {
+        "num": "7",
+        "name": "GND",
+        "type": "ground"
+      },
+      {
+        "num": "8",
+        "name": "VDD",
+        "type": "power_in"
+      }
+    ],
+    "score": null
+  },
+  "C1": {
+    "mpn": "CL10A106KP8NNNC",
+    "lcsc_id": "C19702",
+    "category": "Capacitors",
+    "package": "0603",
+    "description": "MLCC ceramic capacitor 10uF 10V X5R 0603 bulk decoupling",
+    "manufacturer": "",
+    "value": "10uF",
+    "price": 0.01,
+    "stock": 900000,
+    "voltage_max": 10.0,
+    "footprint_ref": "C_0603",
+    "pins": [
+      {
+        "num": "1",
+        "name": "1",
+        "type": "passive"
+      },
+      {
+        "num": "2",
+        "name": "2",
+        "type": "passive"
+      }
+    ],
+    "score": null
+  },
+  "C2": {
+    "mpn": "CL10A106KP8NNNC",
+    "lcsc_id": "C19702",
+    "category": "Capacitors",
+    "package": "0603",
+    "description": "MLCC ceramic capacitor 10uF 10V X5R 0603 bulk decoupling",
+    "manufacturer": "",
+    "value": "10uF",
+    "price": 0.01,
+    "stock": 900000,
+    "voltage_max": 10.0,
+    "footprint_ref": "C_0603",
+    "pins": [
+      {
+        "num": "1",
+        "name": "1",
+        "type": "passive"
+      },
+      {
+        "num": "2",
+        "name": "2",
+        "type": "passive"
+      }
+    ],
+    "score": null
+  },
+  "C3": {
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc_id": "C14663",
+    "category": "Capacitors",
+    "package": "0603",
+    "description": "MLCC ceramic capacitor 100nF 50V X7R 0603 decoupling bypass",
+    "manufacturer": "",
+    "value": "100nF",
+    "price": 0.004,
+    "stock": 2000000,
+    "voltage_max": 50.0,
+    "footprint_ref": "C_0603",
+    "pins": [
+      {
+        "num": "1",
+        "name": "1",
+        "type": "passive"
+      },
+      {
+        "num": "2",
+        "name": "2",
+        "type": "passive"
+      }
+    ],
+    "score": null
+  },
+  "R1": {
+    "mpn": "0603WAF5101T5E",
+    "lcsc_id": "C23186",
+    "category": "Resistors",
+    "package": "0603",
+    "description": "resistor 5.1k ohm 1% 0603 USB-C CC pull-down",
+    "manufacturer": "",
+    "value": "5.1k",
+    "price": 0.002,
+    "stock": 500000,
+    "voltage_max": 75.0,
+    "footprint_ref": "R_0603",
+    "pins": [
+      {
+        "num": "1",
+        "name": "1",
+        "type": "passive"
+      },
+      {
+        "num": "2",
+        "name": "2",
+        "type": "passive"
+      }
+    ],
+    "score": null
+  },
+  "R2": {
+    "mpn": "0603WAF5101T5E",
+    "lcsc_id": "C23186",
+    "category": "Resistors",
+    "package": "0603",
+    "description": "resistor 5.1k ohm 1% 0603 USB-C CC pull-down",
+    "manufacturer": "",
+    "value": "5.1k",
+    "price": 0.002,
+    "stock": 500000,
+    "voltage_max": 75.0,
+    "footprint_ref": "R_0603",
+    "pins": [
+      {
+        "num": "1",
+        "name": "1",
+        "type": "passive"
+      },
+      {
+        "num": "2",
+        "name": "2",
+        "type": "passive"
+      }
+    ],
+    "score": null
+  },
+  "J2": {
+    "mpn": "HDR-1x04",
+    "lcsc_id": "",
+    "category": "Connector",
+    "package": "HDR-1x04",
+    "description": "pin header 1x4 2.54mm breakout connector",
+    "manufacturer": "",
+    "value": "1x4 header",
+    "price": 0.0,
+    "stock": 999,
+    "voltage_max": 250.0,
+    "footprint_ref": "HDR-1x04",
+    "pins": [
+      {
+        "num": "1",
+        "name": "1",
+        "type": "passive"
+      },
+      {
+        "num": "2",
+        "name": "2",
+        "type": "passive"
+      },
+      {
+        "num": "3",
+        "name": "3",
+        "type": "passive"
+      },
+      {
+        "num": "4",
+        "name": "4",
+        "type": "passive"
+      }
+    ],
+    "score": null
+  }
+}

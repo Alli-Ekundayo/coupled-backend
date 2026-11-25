@@ -1,0 +1,221 @@
+{
+  "nets": {
+    "VBUS": [
+      [
+        "J1",
+        "1"
+      ],
+      [
+        "U1",
+        "1"
+      ],
+      [
+        "U1",
+        "3"
+      ],
+      [
+        "C1",
+        "1"
+      ]
+    ],
+    "GND": [
+      [
+        "J1",
+        "4"
+      ],
+      [
+        "U1",
+        "2"
+      ],
+      [
+        "C1",
+        "2"
+      ],
+      [
+        "C2",
+        "2"
+      ],
+      [
+        "C3",
+        "2"
+      ],
+      [
+        "U2",
+        "1"
+      ],
+      [
+        "U2",
+        "7"
+      ],
+      [
+        "U2",
+        "5"
+      ],
+      [
+        "R1",
+        "2"
+      ],
+      [
+        "R2",
+        "2"
+      ],
+      [
+        "J2",
+        "2"
+      ]
+    ],
+    "3V3": [
+      [
+        "U1",
+        "5"
+      ],
+      [
+        "C2",
+        "1"
+      ],
+      [
+        "C3",
+        "1"
+      ],
+      [
+        "U2",
+        "8"
+      ],
+      [
+        "U2",
+        "6"
+      ],
+      [
+        "U2",
+        "2"
+      ],
+      [
+        "J2",
+        "1"
+      ]
+    ],
+    "SDA": [
+      [
+        "U2",
+        "3"
+      ],
+      [
+        "J2",
+        "3"
+      ]
+    ],
+    "SCL": [
+      [
+        "U2",
+        "4"
+      ],
+      [
+        "J2",
+        "4"
+      ]
+    ],
+    "CC1": [
+      [
+        "J1",
+        "2"
+      ],
+      [
+        "R1",
+        "1"
+      ]
+    ],
+    "CC2": [
+      [
+        "J1",
+        "3"
+      ],
+      [
+        "R2",
+        "1"
+      ]
+    ]
+  },
+  "net_classes": {
+    "VBUS": "power",
+    "GND": "power",
+    "3V3": "power",
+    "SDA": "signal",
+    "SCL": "signal",
+    "CC1": "signal",
+    "CC2": "signal"
+  },
+  "components": [
+    {
+      "ref": "J1",
+      "mpn": "USBC-4P-DEMO",
+      "lcsc_id": "",
+      "value": "USB-C power",
+      "footprint_ref": "USBC-4P",
+      "package": "USBC-4P"
+    },
+    {
+      "ref": "U1",
+      "mpn": "AP2112K-3.3TRG1",
+      "lcsc_id": "C51118",
+      "value": "3.3V",
+      "footprint_ref": "SOT-23-5",
+      "package": "SOT-23-5"
+    },
+    {
+      "ref": "U2",
+      "mpn": "BME280",
+      "lcsc_id": "C92489",
+      "value": "BME280",
+      "footprint_ref": "LGA-8",
+      "package": "LGA-8"
+    },
+    {
+      "ref": "C1",
+      "mpn": "CL10A106KP8NNNC",
+      "lcsc_id": "C19702",
+      "value": "10uF",
+      "footprint_ref": "C_0603",
+      "package": "0603"
+    },
+    {
+      "ref": "C2",
+      "mpn": "CL10A106KP8NNNC",
+      "lcsc_id": "C19702",
+      "value": "10uF",
+      "footprint_ref": "C_0603",
+      "package": "0603"
+    },
+    {
+      "ref": "C3",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc_id": "C14663",
+      "value": "100nF",
+      "footprint_ref": "C_0603",
+      "package": "0603"
+    },
+    {
+      "ref": "R1",
+      "mpn": "0603WAF5101T5E",
+      "lcsc_id": "C23186",
+      "value": "5.1k",
+      "footprint_ref": "R_0603",
+      "package": "0603"
+    },
+    {
+      "ref": "R2",
+      "mpn": "0603WAF5101T5E",
+      "lcsc_id": "C23186",
+      "value": "5.1k",
+      "footprint_ref": "R_0603",
+      "package": "0603"
+    },
+    {
+      "ref": "J2",
+      "mpn": "HDR-1x04",
+      "lcsc_id": "",
+      "value": "1x4 header",
+      "footprint_ref": "HDR-1x04",
+      "package": "HDR-1x04"
+    }
+  ]
+}

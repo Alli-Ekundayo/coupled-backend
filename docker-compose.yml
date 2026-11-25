@@ -1,0 +1,27 @@
+services:
+  api:
+    build: { context: ., dockerfile: docker/api.Dockerfile }
+    environment:
+      - WORKER_URL=http://worker:8001
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - NEXAR_ACCESS_TOKEN=${NEXAR_ACCESS_TOKEN:-}
+      - LLM_MODEL=${LLM_MODEL:-gemini-2.5-flash}
+      - CORS_ORIGINS=${CORS_ORIGINS:-*}
+      - DATABASE_URL=${DATABASE_URL:-}
+      - DATABASE_URL_UNPOOLED=${DATABASE_URL_UNPOOLED:-}
+      - NEON_BRANCH=${NEON_BRANCH:-}
+      - NEON_BRANCH_ID=${NEON_BRANCH_ID:-}
+      - NEON_AUTH_BASE_URL=${NEON_AUTH_BASE_URL:-}
+      - NEON_AUTH_JWKS_URL=${NEON_AUTH_JWKS_URL:-}
+    volumes:
+      - "data:/data"
+      - "./coupled_backend:/app/coupled_backend"
+    ports: ["8000:8000"]
+    depends_on: [worker]
+  worker:
+    build: { context: ., dockerfile: docker/worker.Dockerfile }
+    platform: linux/amd64
+    volumes:
+      - "data:/data"
+      - "./coupled_backend:/app/coupled_backend"
+volumes: { data: {} }

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "default",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "power",
+        "clearance": 0.2,
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "signal",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "netclass_assignments": {
+      "VBUS": "power",
+      "GND": "power",
+      "3V3": "power",
+      "SDA": "signal",
+      "SCL": "signal",
+      "CC1": "signal",
+      "CC2": "signal"
+    }
+  }
+}
